@@ -93,6 +93,6 @@ def analysis(src, keyLen, decodeOffset):
 if __name__ == '__main__':
 	file = open('input.txt', 'r')
 	src = file.read().splitlines()[0].decode("utf-8")
-	analysis(src, keyLen=3, decodeOffset=13)
+	analysis(src, keyLen=3, decodeOffset=17)
 
 	file.close()
